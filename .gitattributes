@@ -1,0 +1,5 @@
+# Store text files with LF in the repository and check them out with LF on
+# every platform, so the working tree is byte-identical on Windows, macOS,
+# Linux and CI. Without this, Windows checkouts get CRLF and diffs churn
+# whenever the repo is touched from another OS.
+* text=auto eol=lf
